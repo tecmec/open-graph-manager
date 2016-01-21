@@ -4,8 +4,14 @@ This plugin can be used to extend the [Get Simple CMS](http://get-simple.info/).
 ## What is this plugin for?
 This plugin adds [Open Graph](http://ogp.me/) meta tags (twitter cards) to the content.
 
-Following meta tag names are supported:
+## What else do I need (to know)?
+This project makes use:
 
++ [Sass](http://sass-lang.com/) for a better css writing
++ [Compass](http://compass-style.org/) to minify css
++ [Plates](http://platesphp.com/) to get template support
+
+## Supported meta tags
 ### Tags filled by the system
 * og:title
 * og:type
