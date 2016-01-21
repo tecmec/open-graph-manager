@@ -1,0 +1,7 @@
+#Deny from all
+
+RedirectMatch 403 ^.*/plates/*.*$
+RedirectMatch 403 ^.*/plates/Extension/*.*$
+RedirectMatch 403 ^.*/plates/Template/*.*$
+RedirectMatch 403 ^.*/sass/*.*$
+RedirectMatch 403 ^.*/templates/*.*$

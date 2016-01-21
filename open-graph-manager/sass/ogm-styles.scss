@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Jaldi);
+
+$font: 'Jaldi', sans-serif;
+
+.ogm{
+
+  position: relative;
+
+  h1, h2, h3{
+    color: rgba(32, 176, 255, 1);
+    font-style: normal;
+    font-family: $font;
+    padding: 0 0 10px 0;
+    margin: 0;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  p{
+    font-size: 14px;
+    color: #808080;
+    padding: 10px 0;
+    font-family: $font;
+  }
+
+  .option{
+    padding: 10px 0;
+
+    label{
+      font-size: 13px;
+      padding-bottom: 5px;
+      font-weight: lighter;
+      font-family: $font;
+    }
+
+    input[type='text']{
+      padding: 0px 7px;
+      color: chocolate;
+      font-family: "Jaldi",sans-serif;
+      font-size: 1.3em;
+    }
+
+  }
+
+  .tabs{
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    button{
+      background: #0E1316;
+      color: #AFC5CF;
+      padding: 4px 14px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      margin: 0;
+      transition: all .2s ease-in-out;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+    }
+
+    button:hover {
+      color: #fff;
+
+    }
+    button.active{
+      background: #CF3805;
+      color: #fff;
+      border: none;
+    }
+
+  }
+
+  button{
+    font: $font;
+    padding: 10px 15px;
+  }
+
+  .save-btn{
+    margin-top: 30px;
+  }
+
+  .sys-msg-success{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+ }
