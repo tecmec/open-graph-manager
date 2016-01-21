@@ -5,7 +5,7 @@ This plugin can be used to extend the [Get Simple CMS](http://get-simple.info/).
 This plugin adds [Open Graph](http://ogp.me/) meta tags (twitter cards) to the content.
 
 ## What else do I need (to know)?
-This project makes use:
+This project makes use of:
 
 + [Sass](http://sass-lang.com/) for a better css writing
 + [Compass](http://compass-style.org/) to minify css
