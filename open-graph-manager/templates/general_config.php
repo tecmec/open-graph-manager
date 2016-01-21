@@ -1,5 +1,5 @@
 <?php $this->layout('form', array('OGM_BUTTON_SAVE' => $OGM_BUTTON_SAVE)) ?>
-<h3>General Configuration</h3>
+<h3><?php echo $OGM_HEADLINE_GENERAL_CONFIGURATION ?></h3>
 <div class="option">
     <label for="general_author"><?php echo $OGM_GENERAL_AUTHOR ?></label>
     <input type="text" name="general_author" value="<?php echo $general_author ?>"/>
