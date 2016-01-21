@@ -1,4 +1,4 @@
-<?php $this->layout('form', ['OGM_BUTTON_SAVE' => $OGM_BUTTON_SAVE]) ?>
+<?php $this->layout('form', array('OGM_BUTTON_SAVE' => $OGM_BUTTON_SAVE)) ?>
 <h3><?php echo $OGM_HEADLINE_FACEBOOK_CONFIGURATION ?></h3>
 <div class="option">
     <label for="facebook_page_id"><?php echo $OGM_LABEL_FACEBOOK_PAGE_ID ?></label>

@@ -1,4 +1,4 @@
-<?php $this->layout('form', ['OGM_BUTTON_SAVE' => $OGM_BUTTON_SAVE]) ?>
+<?php $this->layout('form', array('OGM_BUTTON_SAVE' => $OGM_BUTTON_SAVE)) ?>
 <h3>Twitter Configuration</h3>
 <div class="option">
     <label for="twitter_site"><?php echo $OGM_LABEL_TWITTER_SITE ?></label>
